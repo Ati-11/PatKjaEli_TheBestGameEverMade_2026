@@ -216,7 +216,7 @@ MonoBehaviour:
   horizontalInput: 1
   verticalInput: 1
   speed: 5
-  mouseSensitivity: 50
+  mouseSensitivity: 100
   playerCamera: {fileID: 4089143247426653866}
 --- !u!1 &5483370494766145189
 GameObject:
