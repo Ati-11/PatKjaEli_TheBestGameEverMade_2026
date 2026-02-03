@@ -307,7 +307,7 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: fmod/fmod.fspro
+  sourceProjectPath: fmod/TheBestGame1.fspro
   sourceBankPath: fmod/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
@@ -330,7 +330,8 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
+  MasterBanks:
+  - Master
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
