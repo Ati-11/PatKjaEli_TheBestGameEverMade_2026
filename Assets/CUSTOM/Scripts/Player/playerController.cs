@@ -13,7 +13,7 @@ public class playerController : MonoBehaviour
     private Rigidbody Rigid;
 
     // -------------------------------------------------- 
-    private Alteruna.Avatar Avatar;
+    private Alteruna.Avatar Avatar; 
     // -------------------------------------------------- 
 
     void Start()
@@ -27,20 +27,21 @@ public class playerController : MonoBehaviour
         }
         // -------------------------------------------------- 
 
-        Rigid = GetComponent<Rigidbody>();
-        Rigid.freezeRotation = true;
-        Cursor.lockState = CursorLockMode.Locked;
+        Rigid = GetComponent<Rigidbody>(); 
+        Rigid.freezeRotation = true; 
+        Cursor.lockState = CursorLockMode.Locked; 
     }
 
     void Update()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
+      
         verticalInput = Input.GetAxis("Vertical");
+        horizontalInput = Input.GetAxis("Horizontal");
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
-        transform.Rotate(Vector3.up * mouseX); // player rotate (yaw)
+        transform.Rotate(Vector3.up * mouseX); // player rotate (yaw) 
 
-        // camera (pitch)
+        // camera (pitch) 
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
         playerCamera.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
