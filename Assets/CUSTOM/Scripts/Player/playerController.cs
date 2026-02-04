@@ -49,8 +49,12 @@ public class playerController : MonoBehaviour
     }
     void FixedUpdate()
     {
+        //
         Vector3 move = new Vector3(horizontalInput, 0f, verticalInput);
         move = transform.TransformDirection(move);
-        transform.Translate(move * speed * Time.deltaTime, Space.World);
+        
+        Vector3 velocity = move * speed;
+        Rigid.linearVelocity = new Vector3(velocity.x, Rigid.linearVelocity.y, velocity.z);
+        //
     }
 }
