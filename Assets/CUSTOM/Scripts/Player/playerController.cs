@@ -4,20 +4,20 @@ public class playerController : MonoBehaviour
 {
     public float horizontalInput = 1f;
     public float verticalInput = 1f;
-    public float speed = 5f;
-    public float jumpForce = 5f;
-    public float runSpeed = 50f;
+    public float speed = 4f;
+    public float jumpForce = 10f;
+    public float runSpeed = 6f;
     private bool touchingGround;
 
     public float mouseSensitivity = 100f;
     private float xRotation = 0f;
-    private float yRotation = 0f;
     public Transform playerCamera;
 
-    private Rigidbody Rigid;
-
+    private Rigidbody Rigid; 
 
     private Alteruna.Avatar Avatar; //SERVER SHENANIGANS
+
+
 
     void Start()
     {
@@ -30,22 +30,23 @@ public class playerController : MonoBehaviour
         }
         // SERVER SHENANIGANS
 
-        Rigid.interpolation = RigidbodyInterpolation.Interpolate; //Camera movement interpolation 
         Rigid = GetComponent<Rigidbody>(); 
+        Rigid.interpolation = RigidbodyInterpolation.Extrapolate; //Camera movement smoothing 
         Rigid.freezeRotation = true; //Stops player rotation from physics 
-        Cursor.lockState = CursorLockMode.Locked; 
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
 
 
-    private void OnCollisionEnter(Collision collision) 
+    private void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
             touchingGround = true;
         }
     }
-    private void OnCollisionExit(Collision collision) 
+
+    private void OnCollisionExit(Collision collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
@@ -55,22 +56,15 @@ public class playerController : MonoBehaviour
 
 
 
+
     void Update()
     {
-        verticalInput = Input.GetAxis("Vertical");
-        horizontalInput = Input.GetAxis("Horizontal");
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime; 
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
-        transform.Rotate(Vector3.up * mouseX); 
-        xRotation -= mouseY; 
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-        playerCamera.localRotation = Quaternion.Euler(xRotation, 0f, 0f); 
-
-
+        verticalInput = Input.GetAxisRaw("Vertical"); 
+        horizontalInput = Input.GetAxisRaw("Horizontal"); 
 
         if (Input.GetButtonDown("Jump") && (touchingGround))
         {
-            Rigid.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            Rigid.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
         }
 
         if (Input.GetKey(KeyCode.LeftShift))
@@ -80,10 +74,19 @@ public class playerController : MonoBehaviour
         else
         {
             speed = 5f;
-            Debug.Log("Running");
         }
 
+
+
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+        transform.Rotate(Vector3.up * mouseX);
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        playerCamera.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
     }
+
+
     void FixedUpdate()
     {
         //
