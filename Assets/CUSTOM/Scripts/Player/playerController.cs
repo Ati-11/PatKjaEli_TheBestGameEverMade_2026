@@ -31,7 +31,7 @@ public class playerController : MonoBehaviour
         // SERVER SHENANIGANS
 
         Rigid = GetComponent<Rigidbody>(); 
-        Rigid.interpolation = RigidbodyInterpolation.Extrapolate; //Camera movement smoothing 
+        Rigid.interpolation = RigidbodyInterpolation.Interpolate; //Camera movement smoothing 
         Rigid.freezeRotation = true; //Stops player rotation from physics 
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -75,16 +75,21 @@ public class playerController : MonoBehaviour
         {
             speed = 5f;
         }
+    }
 
 
 
+    void LateUpdate()
+    {
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
-        transform.Rotate(Vector3.up * mouseX);
+        Rigid.MoveRotation(Rigid.rotation * Quaternion.Euler(0f, mouseX, 0f));
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
         playerCamera.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        
     }
+
 
 
     void FixedUpdate()
