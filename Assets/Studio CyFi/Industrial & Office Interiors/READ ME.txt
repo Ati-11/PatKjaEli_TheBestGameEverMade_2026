@@ -1,0 +1,15 @@
+Industrial Interiors by Studio CyFi
+-----------------------------------
+
+Made for Unity 2019 and higher.  
+
+URP:
+After importing this package, double click the "Convert to URP" object in Assets/Studio CyFi/Industrial Interiors/Convert to URP.
+This will overwrite the materials, prefabs, and scenes to use URP and apply URP lighting/post processing settings.
+
+HDRP:
+After importing this package, double click the "Convert to HDRP" object in Assets/Studio CyFi/Industrial Interiors/Convert to HDRP.
+This will overwrite the materials, prefabs, and scenes to use URP and apply HDRP lighting/post processing settings.
+
+
+
