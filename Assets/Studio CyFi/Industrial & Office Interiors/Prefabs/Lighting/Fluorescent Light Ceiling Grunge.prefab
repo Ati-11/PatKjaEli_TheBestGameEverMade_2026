@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2782633723263135988
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 641937931842355245, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3845268957122032491, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3899538871721692826, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3899538871721692826, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989114422176222724, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841286266625079779, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841286266625079779, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fc6204f0517f4774caa0b5196def340c, type: 2}
+    - target: {fileID: 5726650514437880793, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009095930357596812, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009095930357596812, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009095930357596812, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009095930357596812, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009095930357596812, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009095930357596812, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009095930357596812, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009095930357596812, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009095930357596812, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009095930357596812, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009095930357596812, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354377063193221174, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_Name
+      value: Fluorescent Light Ceiling Grunge
+      objectReference: {fileID: 0}
+    - target: {fileID: 8952935304533758979, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 09ca5f8879a0fbe41b2e3d08fb6c9a78, type: 3}
