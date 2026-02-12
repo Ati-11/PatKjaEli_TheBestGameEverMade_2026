@@ -64,7 +64,10 @@ public class playerController : MonoBehaviour
     void Update()
     {
         verticalInput = Input.GetAxisRaw("Vertical"); 
-        horizontalInput = Input.GetAxisRaw("Horizontal"); 
+        horizontalInput = Input.GetAxisRaw("Horizontal");
+
+
+        MoveDirection = new Vector3(horizontalInput, 0, verticalInput);
 
         if (Input.GetButtonDown("Jump") && (touchingGround))
         {
@@ -81,21 +84,9 @@ public class playerController : MonoBehaviour
         }
 
 
+        GnomePoly_Animator.SetFloat("Speed", MoveDirection.magnitude * speed);
 
-        if (MoveDirection == Vector3.zero)
-        {
-            GnomePoly_Animator.SetFloat("Speed", 0f);
-        }
-        else if (!Input.GetKey(KeyCode.LeftShift))
-        {
-            GnomePoly_Animator.SetFloat("Speed", 0.5f);
-        }
-        else
-        {
-            GnomePoly_Animator.SetFloat("Speed", 1f);
-        }
-
-
+        
 
     }
 
