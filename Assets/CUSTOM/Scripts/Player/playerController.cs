@@ -1,4 +1,6 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class playerController : MonoBehaviour
 {
@@ -8,13 +10,14 @@ public class playerController : MonoBehaviour
     public float jumpForce = 10f;
     public float runSpeed = 6f;
     private bool touchingGround;
+    private Vector3 MoveDirection;
 
     public float mouseSensitivity = 100f;
     private float xRotation = 0f;
     public Transform playerCamera;
 
-    private Rigidbody Rigid; 
-
+    private Rigidbody Rigid;
+    private Animator GnomePoly_Animator;
     private Alteruna.Avatar Avatar; //SERVER SHENANIGANS
 
 
@@ -30,7 +33,8 @@ public class playerController : MonoBehaviour
         }
         // SERVER SHENANIGANS
 
-        Rigid = GetComponent<Rigidbody>(); 
+        Rigid = GetComponent<Rigidbody>();
+        GnomePoly_Animator = GetComponent<Animator>();
         Rigid.interpolation = RigidbodyInterpolation.Interpolate; //Camera movement smoothing 
         Rigid.freezeRotation = true; //Stops player rotation from physics 
         Cursor.lockState = CursorLockMode.Locked;
@@ -75,6 +79,24 @@ public class playerController : MonoBehaviour
         {
             speed = 5f;
         }
+
+
+
+        if (MoveDirection == Vector3.zero)
+        {
+            GnomePoly_Animator.SetFloat("Speed", 0f);
+        }
+        else if (!Input.GetKey(KeyCode.LeftShift))
+        {
+            GnomePoly_Animator.SetFloat("Speed", 0.5f);
+        }
+        else
+        {
+            GnomePoly_Animator.SetFloat("Speed", 1f);
+        }
+
+
+
     }
 
 
