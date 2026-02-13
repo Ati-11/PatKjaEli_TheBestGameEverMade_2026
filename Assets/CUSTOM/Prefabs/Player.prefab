@@ -2903,7 +2903,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::playerController
   horizontalInput: 1
   verticalInput: 1
-  speed: 4
+  speed: 3
   jumpForce: 5
   runSpeed: 8
   mouseSensitivity: 100

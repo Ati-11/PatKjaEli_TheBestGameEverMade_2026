@@ -1,6 +1,9 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using Alteruna;
+
+
 
 public class playerController : MonoBehaviour
 {
@@ -18,20 +21,28 @@ public class playerController : MonoBehaviour
 
     private Rigidbody Rigid;
     private Animator GnomePoly_Animator;
-    private Alteruna.Avatar Avatar; //SERVER SHENANIGANS
+    public Alteruna.Avatar Avatar; //SERVER SHENANIGANS
 
 
 
     void Start()
     {
-        // SERVER SHENANIGANS
+        // SERVER SHENANIGANS 
         Avatar = GetComponent<Alteruna.Avatar>();
+
         if (!Avatar.IsMe)
         {
-            Destroy(this);
+            if (playerCamera != null)
+            {
+                playerCamera.gameObject.SetActive(false);
+            }
+
+            Rigid.isKinematic = true; 
             return;
         }
-        // SERVER SHENANIGANS
+        // SERVER SHENANIGANS 
+
+
 
         Rigid = GetComponent<Rigidbody>();
         GnomePoly_Animator = GetComponent<Animator>();
@@ -50,6 +61,8 @@ public class playerController : MonoBehaviour
         }
     }
 
+
+
     private void OnCollisionExit(Collision collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
@@ -60,12 +73,10 @@ public class playerController : MonoBehaviour
 
 
 
-
     void Update()
     {
-        verticalInput = Input.GetAxisRaw("Vertical"); 
+        verticalInput = Input.GetAxisRaw("Vertical");
         horizontalInput = Input.GetAxisRaw("Horizontal");
-
 
         MoveDirection = new Vector3(horizontalInput, 0, verticalInput);
 
@@ -78,21 +89,17 @@ public class playerController : MonoBehaviour
         {
             speed = runSpeed;
         }
+
         else
         {
             speed = 5f;
         }
 
-
         GnomePoly_Animator.SetFloat("Speed", MoveDirection.magnitude * speed);
-
-        
-
     }
 
-
-
     void LateUpdate()
+
     {
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
@@ -100,19 +107,19 @@ public class playerController : MonoBehaviour
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
         playerCamera.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        
     }
 
 
 
     void FixedUpdate()
+
     {
-        //
         Vector3 move = new Vector3(horizontalInput, 0f, verticalInput);
         move = transform.TransformDirection(move);
 
         Vector3 velocity = move * speed;
         Rigid.linearVelocity = new Vector3(velocity.x, Rigid.linearVelocity.y, velocity.z);
-        //
     }
+
 }
+
