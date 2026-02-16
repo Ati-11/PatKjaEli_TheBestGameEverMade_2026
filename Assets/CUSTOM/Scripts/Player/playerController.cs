@@ -21,7 +21,7 @@ public class playerController : MonoBehaviour
 
     private Rigidbody Rigid;
     private Animator GnomePoly_Animator;
-    public Alteruna.Avatar Avatar; //SERVER SHENANIGANS
+    public Alteruna.Avatar Avatar;
 
 
 
