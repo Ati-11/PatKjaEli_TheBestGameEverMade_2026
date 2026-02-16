@@ -30,7 +30,7 @@ namespace Alteruna
 			}
 			
 			// Check if there is already an EventSystem in the scene
-			if (Object.FindObjectOfType<EventSystem>() == null)
+			if (Object.FindAnyObjectByType<EventSystem>() == null)
 			{
 				// Create a new GameObject
 				GameObject eventSystem = new GameObject("EventSystem");

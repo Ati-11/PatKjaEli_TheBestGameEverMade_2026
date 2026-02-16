@@ -2813,7 +2813,7 @@ MonoBehaviour:
   - Name: Max
     NetLOD: 4
     Frequency: 120
-  Reliability: 2
+  Reliability: 1
   UseGlobalPosition: 0
   OnlySyncFromRoomOwner: 0
   refreshRate: 30
@@ -2908,6 +2908,7 @@ MonoBehaviour:
   runSpeed: 8
   mouseSensitivity: 100
   playerCamera: {fileID: 935998596217156138}
+  Avatar: {fileID: 0}
 --- !u!95 &6340705438784392574
 Animator:
   serializedVersion: 7
