@@ -13,7 +13,7 @@ public class MUPlayerController : MonoBehaviour
 
     private Alteruna.Avatar avatar;
 
-    public GameObject connectScreen;
+    //public GameObject connectScreen;
 
     public Material[] mats = new Material[3];
 
@@ -38,10 +38,10 @@ public class MUPlayerController : MonoBehaviour
         unitybody = GetComponent<Rigidbody>();
         GnomePoly_Animator = transform.GetChild(0).GetComponent<Animator>();
 
+        /*
         connectScreen = GameObject.FindGameObjectWithTag("start");
-
         Debug.Log(connectScreen.name);
-
+        */
     }
 
 
@@ -164,10 +164,7 @@ public class MUPlayerController : MonoBehaviour
 
         
     }
-    public void HideConnection()
-    {
-        connectScreen.SetActive(false);
-    }
+
 
 
 
