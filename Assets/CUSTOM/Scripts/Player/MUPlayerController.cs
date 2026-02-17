@@ -36,6 +36,8 @@ public class MUPlayerController : MonoBehaviour
         body = GetComponent<RigidbodySynchronizable>();
         avatar = GetComponent<Alteruna.Avatar>();
         unitybody = GetComponent<Rigidbody>();
+
+        //put the animator on the thing animated, this could have been the issue
         GnomePoly_Animator = transform.GetChild(0).GetComponent<Animator>();
 
         /*
