@@ -498,6 +498,53 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &830943333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4882638252204021571, guid: f424e354b66e82e40845ea43d0878a64, type: 3}
+  m_PrefabInstance: {fileID: 2967631664204760004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &830943334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830943333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1576325847, guid: 0ae8d181602a00248a82f64a684a1c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Alteruna.Trinity.dll::Alteruna.RigidbodySynchronizable
+  Multiplayer: {fileID: 1640179111}
+  _uidString: 5502dd54-b82c-4c4f-b5b3-3991530b3264
+  BucketBehaviors:
+  - Name: Min
+    NetLOD: 0
+    Frequency: -1
+  - Name: Low
+    NetLOD: 1
+    Frequency: 0
+  - Name: Mid
+    NetLOD: 2
+    Frequency: 0
+  - Name: High
+    NetLOD: 3
+    Frequency: 0
+  - Name: Max
+    NetLOD: 4
+    Frequency: 120
+  Reliability: 1
+  SyncEveryNUpdates: 10
+  FullSyncEveryNSync: 4
+  SendData: 1
+  ApplyAsTransform: 0
+  AllowCollisionToAssumeOwner: 1
+  Rigidbody: {fileID: 830943336}
+--- !u!54 &830943336 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 130475759638294371, guid: f424e354b66e82e40845ea43d0878a64, type: 3}
+  m_PrefabInstance: {fileID: 2967631664204760004}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,6 +607,7 @@ GameObject:
   - component: {fileID: 874200379}
   - component: {fileID: 874200378}
   - component: {fileID: 874200377}
+  - component: {fileID: 874200382}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Untagged
@@ -686,6 +734,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &874200382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874200376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1576325847, guid: 0ae8d181602a00248a82f64a684a1c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Alteruna.Trinity.dll::Alteruna.RigidbodySynchronizable
+  Multiplayer: {fileID: 1640179111}
+  _uidString: b9f4d3e4-d298-48ab-bf95-bc4375f3d692
+  BucketBehaviors:
+  - Name: Min
+    NetLOD: 0
+    Frequency: -1
+  - Name: Low
+    NetLOD: 1
+    Frequency: 0
+  - Name: Mid
+    NetLOD: 2
+    Frequency: 0
+  - Name: High
+    NetLOD: 3
+    Frequency: 0
+  - Name: Max
+    NetLOD: 4
+    Frequency: 120
+  Reliability: 1
+  SyncEveryNUpdates: 10
+  FullSyncEveryNSync: 4
+  SendData: 1
+  ApplyAsTransform: 0
+  AllowCollisionToAssumeOwner: 1
+  Rigidbody: {fileID: 874200377}
 --- !u!1 &905779130
 GameObject:
   m_ObjectHideFlags: 0
@@ -1959,6 +2044,7 @@ GameObject:
   - component: {fileID: 1861337048}
   - component: {fileID: 1861337047}
   - component: {fileID: 1861337046}
+  - component: {fileID: 1861337051}
   m_Layer: 0
   m_Name: Sphere (3)
   m_TagString: Untagged
@@ -2085,6 +2171,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1861337051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861337045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1576325847, guid: 0ae8d181602a00248a82f64a684a1c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Alteruna.Trinity.dll::Alteruna.RigidbodySynchronizable
+  Multiplayer: {fileID: 1640179111}
+  _uidString: 99a100cc-244d-44f4-be16-12ad614578fa
+  BucketBehaviors:
+  - Name: Min
+    NetLOD: 0
+    Frequency: -1
+  - Name: Low
+    NetLOD: 1
+    Frequency: 0
+  - Name: Mid
+    NetLOD: 2
+    Frequency: 0
+  - Name: High
+    NetLOD: 3
+    Frequency: 0
+  - Name: Max
+    NetLOD: 4
+    Frequency: 120
+  Reliability: 1
+  SyncEveryNUpdates: 10
+  FullSyncEveryNSync: 4
+  SendData: 1
+  ApplyAsTransform: 0
+  AllowCollisionToAssumeOwner: 1
+  Rigidbody: {fileID: 1861337046}
 --- !u!1 &1865323766
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,6 +2221,7 @@ GameObject:
   - component: {fileID: 1865323769}
   - component: {fileID: 1865323768}
   - component: {fileID: 1865323767}
+  - component: {fileID: 1865323772}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Untagged
@@ -2224,6 +2348,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1865323772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865323766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1576325847, guid: 0ae8d181602a00248a82f64a684a1c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Alteruna.Trinity.dll::Alteruna.RigidbodySynchronizable
+  Multiplayer: {fileID: 1640179111}
+  _uidString: dc08b82e-1f59-4b6e-b710-3ed46870dc45
+  BucketBehaviors:
+  - Name: Min
+    NetLOD: 0
+    Frequency: -1
+  - Name: Low
+    NetLOD: 1
+    Frequency: 0
+  - Name: Mid
+    NetLOD: 2
+    Frequency: 0
+  - Name: High
+    NetLOD: 3
+    Frequency: 0
+  - Name: Max
+    NetLOD: 4
+    Frequency: 120
+  Reliability: 1
+  SyncEveryNUpdates: 10
+  FullSyncEveryNSync: 4
+  SendData: 1
+  ApplyAsTransform: 0
+  AllowCollisionToAssumeOwner: 1
+  Rigidbody: {fileID: 1865323767}
 --- !u!1 &1962340255
 GameObject:
   m_ObjectHideFlags: 0
@@ -2237,6 +2398,7 @@ GameObject:
   - component: {fileID: 1962340257}
   - component: {fileID: 1962340256}
   - component: {fileID: 1962340260}
+  - component: {fileID: 1962340261}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -2363,6 +2525,43 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1962340261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962340255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1576325847, guid: 0ae8d181602a00248a82f64a684a1c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Alteruna.Trinity.dll::Alteruna.RigidbodySynchronizable
+  Multiplayer: {fileID: 1640179111}
+  _uidString: a9f5ce69-a7da-498b-ae3b-a26f49655aa4
+  BucketBehaviors:
+  - Name: Min
+    NetLOD: 0
+    Frequency: -1
+  - Name: Low
+    NetLOD: 1
+    Frequency: 0
+  - Name: Mid
+    NetLOD: 2
+    Frequency: 0
+  - Name: High
+    NetLOD: 3
+    Frequency: 0
+  - Name: Max
+    NetLOD: 4
+    Frequency: 120
+  Reliability: 1
+  SyncEveryNUpdates: 10
+  FullSyncEveryNSync: 4
+  SendData: 1
+  ApplyAsTransform: 0
+  AllowCollisionToAssumeOwner: 1
+  Rigidbody: {fileID: 1962340260}
 --- !u!1 &1968781688
 GameObject:
   m_ObjectHideFlags: 0
@@ -2663,81 +2862,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4882638252204021571, guid: f424e354b66e82e40845ea43d0878a64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 830943334}
   m_SourcePrefab: {fileID: 100100000, guid: f424e354b66e82e40845ea43d0878a64, type: 3}
---- !u!1001 &6434681179828989973
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1649459133678401091, guid: f90d60107db1acd40940b73523cd928a, type: 3}
-      propertyPath: m_Antialiasing
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5636688870459773667, guid: f90d60107db1acd40940b73523cd928a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 23.5195
-      objectReference: {fileID: 0}
-    - target: {fileID: 5636688870459773667, guid: f90d60107db1acd40940b73523cd928a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.2849
-      objectReference: {fileID: 0}
-    - target: {fileID: 5636688870459773667, guid: f90d60107db1acd40940b73523cd928a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 23.9815
-      objectReference: {fileID: 0}
-    - target: {fileID: 5636688870459773667, guid: f90d60107db1acd40940b73523cd928a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5636688870459773667, guid: f90d60107db1acd40940b73523cd928a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5636688870459773667, guid: f90d60107db1acd40940b73523cd928a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5636688870459773667, guid: f90d60107db1acd40940b73523cd928a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5636688870459773667, guid: f90d60107db1acd40940b73523cd928a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5636688870459773667, guid: f90d60107db1acd40940b73523cd928a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5636688870459773667, guid: f90d60107db1acd40940b73523cd928a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7057669095676285723, guid: f90d60107db1acd40940b73523cd928a, type: 3}
-      propertyPath: m_Avatar
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7057669095676285723, guid: f90d60107db1acd40940b73523cd928a, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: f9000b68060fac844ab5311d622d6f25, type: 2}
-    - target: {fileID: 8740848824771899312, guid: f90d60107db1acd40940b73523cd928a, type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 8740848824771899312, guid: f90d60107db1acd40940b73523cd928a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f90d60107db1acd40940b73523cd928a, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2754,7 +2883,6 @@ SceneRoots:
   - {fileID: 1865323771}
   - {fileID: 874200381}
   - {fileID: 1861337050}
-  - {fileID: 6434681179828989973}
   - {fileID: 1106616394}
   - {fileID: 910115341}
   - {fileID: 2967631664204760004}
