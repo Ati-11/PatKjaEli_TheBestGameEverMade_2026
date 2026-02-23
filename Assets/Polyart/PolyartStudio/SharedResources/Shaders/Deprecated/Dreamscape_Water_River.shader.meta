@@ -4,10 +4,9 @@ ShaderImporter:
   externalObjects: {}
   defaultTextures:
   - _Displacement: {fileID: 2800000, guid: b166ccd7e871a3948ac1028410a7fe76, type: 3}
-  - _WaveNormal: {fileID: 2800000, guid: 70546bb8eb214354e83b7f57e5a4821c, type: 3}
   - _ReflectionNormal: {fileID: 2800000, guid: 70546bb8eb214354e83b7f57e5a4821c, type: 3}
+  - _WaveNormal: {fileID: 2800000, guid: 70546bb8eb214354e83b7f57e5a4821c, type: 3}
   nonModifiableTextures: []
-  preprocessorOverride: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -15,6 +14,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 186894
   packageName: 'Dreamscape Nature : Meadows : Stylized Open World Environment'
-  packageVersion: 2.1
+  packageVersion: 2.2
   assetPath: Assets/Polyart/PolyartStudio/SharedResources/Shaders/Deprecated/Dreamscape_Water_River.shader
-  uploadId: 851158
+  uploadId: 866086
