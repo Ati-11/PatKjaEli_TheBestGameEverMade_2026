@@ -81372,7 +81372,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1118898673494083814, guid: 20b78247d0fb5834ebb967b62fd955a6, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1994705106}
+    - targetCorrespondingSourceObject: {fileID: 1118898673494083814, guid: 20b78247d0fb5834ebb967b62fd955a6, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1994705103}
+    - targetCorrespondingSourceObject: {fileID: 1118898673494083814, guid: 20b78247d0fb5834ebb967b62fd955a6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1994705107}
   m_SourcePrefab: {fileID: 100100000, guid: 20b78247d0fb5834ebb967b62fd955a6, type: 3}
 --- !u!1001 &1787264868
 PrefabInstance:
@@ -91922,12 +91928,42 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994705102}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d6b5691c575399c40b5f8afb926143f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UniversalDoorToggle
   interactDistance: 3
+--- !u!114 &1994705106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994705102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -805392892, guid: 0ae8d181602a00248a82f64a684a1c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Alteruna.Trinity.dll::Alteruna.AnimationSynchronizable
+  Multiplayer: {fileID: 1640179111}
+  _uidString: ce69ea14-db06-4d20-8c83-aecd91b4438d
+  Reliability: 1
+  LocalMethodBehavior: 1
+  Animator: {fileID: 0}
+  OnlyCommitNewStates: 1
+--- !u!114 &1994705107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994705102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb4553b8eb97da4fa718512a0470295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1995765389
 GameObject:
   m_ObjectHideFlags: 0
@@ -96098,7 +96134,7 @@ Transform:
   m_GameObject: {fileID: 2095661428}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 51.39, y: 0.476, z: 111.34}
+  m_LocalPosition: {x: 18.85, y: 1.49, z: 104.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -98561,6 +98597,10 @@ PrefabInstance:
     - target: {fileID: 8082538876387940802, guid: 467c8724b8a848943abf2dd737933358, type: 3}
       propertyPath: m_Name
       value: Robot
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082538876387940802, guid: 467c8724b8a848943abf2dd737933358, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8890425503812617080, guid: 467c8724b8a848943abf2dd737933358, type: 3}
       propertyPath: m_LocalPosition.x
