@@ -45,8 +45,7 @@ public class UniversalDoorToggle : MonoBehaviour
     {
         if (player == null || string.IsNullOrEmpty(openBool))
         {
-            Debug.Log("Player = " + player);
-            Debug.Log("OpenBool = " + openBool);
+
             return;
         }
            

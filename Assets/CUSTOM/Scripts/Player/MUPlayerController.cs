@@ -11,7 +11,7 @@ public class MUPlayerController : MonoBehaviour
     private RigidbodySynchronizable body;
     private Rigidbody unitybody;
 
-    private Alteruna.Avatar avatar;
+    public Alteruna.Avatar avatar;
 
     //public GameObject connectScreen;
 
@@ -30,6 +30,10 @@ public class MUPlayerController : MonoBehaviour
     public float mouseSensitivity = 100f;
     private float xRotation = 0f;
     public Transform playerCamera;
+
+
+    public bool isInDoorVolume = false;
+    public Alteruna.AnimationSynchronizable whichDoor;
 
     private void Awake()
     {
@@ -83,6 +87,20 @@ public class MUPlayerController : MonoBehaviour
         {           
             return;
         }
+
+        if(isInDoorVolume)
+        {
+            Debug.Log("IS IN DOOR VOLUME");
+            
+            if(Input.GetKey(KeyCode.E))
+            {
+                Debug.Log("pRESSED E");
+                whichDoor.SetBool("Open Right", true);
+                whichDoor.SetBool("Open Left", true);
+            }
+
+        }
+
 
         verticalInput = Input.GetAxisRaw("Vertical");
         horizontalInput = Input.GetAxisRaw("Horizontal");

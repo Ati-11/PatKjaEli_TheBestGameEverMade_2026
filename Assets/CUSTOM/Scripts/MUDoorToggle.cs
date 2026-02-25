@@ -7,6 +7,9 @@ public class MUDoorToggle : MonoBehaviour
 
     private Alteruna.AnimationSynchronizable _aniSync;
 
+
+    public bool isInDoorVolume = false;
+    public bool doorIsOpen = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,18 +19,21 @@ public class MUDoorToggle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if(isInDoorVolume)
         {
-            // play for all clients
-            _aniSync.SetBool("Open Right",true);
-            _aniSync.SetBool("Open Left", true);
-        }
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Debug.Log("E PRESSED");
 
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            // play for all clients
-            _aniSync.SetBool("Open Right", false);
-            _aniSync.SetBool("Open Left", false);
+                doorIsOpen = !doorIsOpen;
+                    
+                // play for all clients
+                _aniSync.SetBool("Open Right", doorIsOpen);
+                _aniSync.SetBool("Open Left", doorIsOpen);
+                
+            }
+
         }
+        
     }
 }
