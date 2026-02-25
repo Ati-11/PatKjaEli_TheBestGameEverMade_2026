@@ -527,7 +527,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0ed05a6868cba549a1f0a26960c6c84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MUPlayerController
-  connectScreen: {fileID: 0}
   mats:
   - {fileID: 2100000, guid: d7f7235f55355be42b3cc81173274708, type: 2}
   - {fileID: 2100000, guid: 2d09fc36bc9676e4ab6e2fe1e4d574c0, type: 2}
@@ -535,8 +534,8 @@ MonoBehaviour:
   GnomePoly_Animator: {fileID: 6453018958348287539}
   horizontalInput: 1
   verticalInput: 1
-  speed: 4
-  jumpForce: 5
+  speed: 3
+  jumpForce: 7
   runSpeed: 6
   mouseSensitivity: 100
   playerCamera: {fileID: 2694043826733039815}
@@ -1066,7 +1065,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 439
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
