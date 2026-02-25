@@ -1,4 +1,6 @@
 using UnityEngine;
+
+
 [RequireComponent(typeof(Alteruna.AnimationSynchronizable))]
 public class MUDoorToggle : MonoBehaviour
 {
