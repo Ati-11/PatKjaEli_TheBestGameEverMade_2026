@@ -43,7 +43,13 @@ public class UniversalDoorToggle : MonoBehaviour
 
     void Update()
     {
-        if (player == null || string.IsNullOrEmpty(openBool)) return;
+        if (player == null || string.IsNullOrEmpty(openBool))
+        {
+            Debug.Log("Player = " + player);
+            Debug.Log("OpenBool = " + openBool);
+            return;
+        }
+           
 
         // Only interact if player is close enough
         float distance = Vector3.Distance(player.position, transform.position);
