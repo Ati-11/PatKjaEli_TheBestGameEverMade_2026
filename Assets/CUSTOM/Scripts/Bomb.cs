@@ -6,6 +6,7 @@ public class Bomb : MonoBehaviour
     public float explosionRadius = 7f;
     public float explosionForce = 1000f;
     public float maxDamage = 50f;
+    public GameObject particlePrefab;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -14,6 +15,9 @@ public class Bomb : MonoBehaviour
 
     void Explode()
     {
+        GameObject p = Instantiate(particlePrefab, this.transform.position, Quaternion.identity);
+        Destroy(p, 2f);
+
         Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius);
 
         foreach (Collider nearbyObject in colliders)
