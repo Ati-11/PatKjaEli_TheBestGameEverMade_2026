@@ -28,13 +28,17 @@ public class EnemyAi : MonoBehaviour
 
     private void Awake()
     {
-        player = GameObject.Find("Player").transform;
+        //PLAYER doesn't exist yet, they will spawn later
+        //player = GameObject.Find("Player").transform;
         agent = GetComponent<NavMeshAgent>();
 
     }
 
     private void Update()
     {
+        if (!player)
+            return;
+
         //Check for sight and attack range
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         PlayerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
