@@ -2,7 +2,7 @@ using Alteruna;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class MUPlayerController : MonoBehaviour
+public class MUPlayerController : AttributesSync
 {
 
     [Header("player settings")]
@@ -50,7 +50,6 @@ public class MUPlayerController : MonoBehaviour
         */
     }
 
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -72,11 +71,13 @@ public class MUPlayerController : MonoBehaviour
         unitybody.freezeRotation = true; //Stops player rotation from physics 
         Cursor.lockState = CursorLockMode.None;
 
-        //pick a random number for a color
-        Renderer r = GetComponent<Renderer>();
-        int c = Random.Range(0, 3);
-        r.material = mats[c];
-
+        if (!avatar.IsMe) return;
+        {
+            //pick a random number for a color FIX THIS WITH: Renderer r = GetComponentInChildren<Renderer>();
+            Renderer r = GetComponent<Renderer>();
+            int c = Random.Range(0, 3);
+            r.material = mats[c];
+        }
     }
 
     // Update is called once per frame

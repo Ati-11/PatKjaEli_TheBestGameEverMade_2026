@@ -527,11 +527,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0ed05a6868cba549a1f0a26960c6c84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MUPlayerController
+  Multiplayer: {fileID: 0}
+  _uidString: cda2e97b-8e0a-4391-886d-19ef4730f978
+  Reliability: 1
+  LocalMethodBehavior: 1
   avatar: {fileID: 0}
   mats:
-  - {fileID: 2100000, guid: d7f7235f55355be42b3cc81173274708, type: 2}
-  - {fileID: 2100000, guid: 2d09fc36bc9676e4ab6e2fe1e4d574c0, type: 2}
-  - {fileID: 2100000, guid: bcf7cd9690d1ac64d95fbfc5df503eb2, type: 2}
+  - {fileID: 2100000, guid: 84ad587898f18b8419f2d6181cfa537c, type: 2}
+  - {fileID: 2100000, guid: c161d7f53936bfc429dcedc6384cff81, type: 2}
+  - {fileID: 2100000, guid: c37827df50eb8d94285b216ca16cfe05, type: 2}
   GnomePoly_Animator: {fileID: 6453018958348287539}
   horizontalInput: 1
   verticalInput: 1
