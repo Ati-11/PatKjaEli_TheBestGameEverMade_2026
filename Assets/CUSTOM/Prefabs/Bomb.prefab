@@ -262,6 +262,7 @@ MonoBehaviour:
   explosionRadius: 7
   explosionForce: 1000
   maxDamage: 50
+  particlePrefab: {fileID: 1121192042590650, guid: e1b08032bec16ba4eb1ae23cbd572664, type: 3}
 --- !u!23 &6993124232694290322
 MeshRenderer:
   m_ObjectHideFlags: 0
