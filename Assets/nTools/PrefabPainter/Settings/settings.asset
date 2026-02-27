@@ -2540,7 +2540,7 @@ MonoBehaviour:
       customPreviewImage: {fileID: 0}
     - name: books
       settings:
-        brushRadius: 1
+        brushRadius: 1.2
         brushSpacing: 0.82
         brushOverlapCheckMode: 0
         brushOverlapDistance: 0.5
