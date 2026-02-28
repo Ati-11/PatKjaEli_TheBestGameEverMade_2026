@@ -1,8 +1,10 @@
 using Alteruna;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class Bomb : MonoBehaviour
 {
+    private RigidbodySynchronizable _rigid;
 
     [Header("Explosion Settings")]
     public float explosionRadius = 7f;
@@ -13,6 +15,11 @@ public class Bomb : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         Explode();
+    }
+
+    private void Update()
+    {
+        _rigid = GetComponent<RigidbodySynchronizable>();  
     }
 
     void Explode()
