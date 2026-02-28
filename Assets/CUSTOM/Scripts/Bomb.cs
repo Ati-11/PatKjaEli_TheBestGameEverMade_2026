@@ -1,12 +1,21 @@
+using Alteruna;
 using UnityEngine;
 
 public class Bomb : MonoBehaviour
 {
+    private RigidbodySynchronizable _rigid;
+
     [Header("Explosion Settings")]
     public float explosionRadius = 7f;
     public float explosionForce = 1000f;
     public float maxDamage = 50f;
     public GameObject particlePrefab;
+
+    private void Awake()
+    {
+        _rigid = GetComponent<RigidbodySynchronizable>();
+    }
+
 
     private void OnCollisionEnter(Collision collision)
     {
