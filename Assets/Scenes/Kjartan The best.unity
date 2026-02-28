@@ -31278,6 +31278,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 4782185802458733044, guid: 2b8a1f4b58662884dbcd163af8d46d3f, type: 3}
+      propertyPath: avatar
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4797356706081243624, guid: 2b8a1f4b58662884dbcd163af8d46d3f, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -102353,9 +102357,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8082538876387940802, guid: 467c8724b8a848943abf2dd737933358, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6443095110679365031}
-    - targetCorrespondingSourceObject: {fileID: 8082538876387940802, guid: 467c8724b8a848943abf2dd737933358, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6443095110679365038}
   m_SourcePrefab: {fileID: 100100000, guid: 467c8724b8a848943abf2dd737933358, type: 3}
 --- !u!1 &6443095110679365030 stripped
 GameObject:
@@ -102528,43 +102529,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8890425503812617080, guid: 467c8724b8a848943abf2dd737933358, type: 3}
   m_PrefabInstance: {fileID: 6443095110679365029}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6443095110679365038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6443095110679365030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1576325847, guid: 0ae8d181602a00248a82f64a684a1c88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Alteruna.Trinity.dll::Alteruna.RigidbodySynchronizable
-  Multiplayer: {fileID: 1640179111}
-  _uidString: 3049f5a0-d230-471b-ace8-7971aab18a00
-  BucketBehaviors:
-  - Name: Min
-    NetLOD: 0
-    Frequency: -1
-  - Name: Low
-    NetLOD: 1
-    Frequency: 0
-  - Name: Mid
-    NetLOD: 2
-    Frequency: 0
-  - Name: High
-    NetLOD: 3
-    Frequency: 0
-  - Name: Max
-    NetLOD: 4
-    Frequency: 120
-  Reliability: 1
-  SyncEveryNUpdates: 10
-  FullSyncEveryNSync: 4
-  SendData: 1
-  ApplyAsTransform: 0
-  AllowCollisionToAssumeOwner: 1
-  Rigidbody: {fileID: 6443095110679365032}
 --- !u!1001 &7142415001875368231
 PrefabInstance:
   m_ObjectHideFlags: 0
