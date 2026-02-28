@@ -1825,6 +1825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Launcher
   BombPrefab: {fileID: 2570416231270930436, guid: 63b7da02d830ac14e881196bbda592e1, type: 3}
+  avatar: {fileID: 0}
 --- !u!1 &5467267397079906354
 GameObject:
   m_ObjectHideFlags: 0
