@@ -1108,11 +1108,11 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 1
   m_AntialiasingQuality: 2
   m_StopNaN: 0
-  m_Dithering: 0
+  m_Dithering: 1
   m_ClearDepth: 1
   m_AllowXRRendering: 1
   m_AllowHDROutput: 1
@@ -1825,7 +1825,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Launcher
   BombPrefab: {fileID: 2570416231270930436, guid: 63b7da02d830ac14e881196bbda592e1, type: 3}
-  avatar: {fileID: 0}
 --- !u!1 &5467267397079906354
 GameObject:
   m_ObjectHideFlags: 0
