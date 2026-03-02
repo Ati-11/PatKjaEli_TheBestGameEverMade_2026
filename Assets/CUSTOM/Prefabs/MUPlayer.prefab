@@ -546,6 +546,14 @@ MonoBehaviour:
   playerCamera: {fileID: 2694043826733039815}
   isInDoorVolume: 0
   whichDoor: {fileID: 0}
+  jumpSFX:
+    Guid:
+      Data1: 1609522713
+      Data2: 1257326377
+      Data3: -1286003049
+      Data4: 303153125
+    Path: event:/GnoneJump1
+  jumpVFX: {fileID: 2370778919708059267, guid: 7a4152c6fddb9684e9a80e5218a0891a, type: 3}
 --- !u!1 &1486506136075038334
 GameObject:
   m_ObjectHideFlags: 0

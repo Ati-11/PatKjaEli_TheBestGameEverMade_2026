@@ -1,4 +1,5 @@
 using Alteruna;
+using FMODUnity;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -31,9 +32,11 @@ public class MUPlayerController : AttributesSync
     private float xRotation = 0f;
     public Transform playerCamera;
 
-
     public bool isInDoorVolume = false;
     public Alteruna.AnimationSynchronizable whichDoor;
+
+    public EventReference jumpSFX;
+    public GameObject jumpVFX;
 
     private void Awake()
     {
@@ -111,6 +114,9 @@ public class MUPlayerController : AttributesSync
         if (Input.GetButtonDown("Jump") && (touchingGround))
         {
             body.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
+
+            RuntimeManager.PlayOneShotAttached(jumpSFX, gameObject);
+            Instantiate(jumpVFX, transform.position, Quaternion.identity);
         }
 
         if (Input.GetKey(KeyCode.LeftShift))
