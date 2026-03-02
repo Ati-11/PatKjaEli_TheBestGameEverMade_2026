@@ -1,6 +1,7 @@
 using Alteruna;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using FMODUnity;
 
 public class Bomb : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class Bomb : MonoBehaviour
     public float explosionForce = 1000f;
     public float maxDamage = 50f;
     public GameObject particlePrefab;
+
+    [Header("Audio")]
+    [SerializeField] private EventReference explosionSound;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -24,6 +28,7 @@ public class Bomb : MonoBehaviour
 
     void Explode()
     {
+        RuntimeManager.PlayOneShot(explosionSound, transform.position);
         GameObject p = Instantiate(particlePrefab, this.transform.position, Quaternion.identity);
         Destroy(p, 2f);
 
