@@ -199,7 +199,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 1
   m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3
@@ -303,3 +303,11 @@ MonoBehaviour:
   explosionRadius: 7
   explosionForce: 1000
   maxDamage: 50
+  SawBlade: {fileID: 3502085912598913101}
+  SawSound:
+    Guid:
+      Data1: 2144772558
+      Data2: 1238611447
+      Data3: -1338514272
+      Data4: 1302467704
+    Path: event:/EnemyShooting

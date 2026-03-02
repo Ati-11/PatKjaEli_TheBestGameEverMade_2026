@@ -1,3 +1,4 @@
+using FMODUnity;
 using UnityEngine;
 
 public class Saw : MonoBehaviour
@@ -6,7 +7,15 @@ public class Saw : MonoBehaviour
     public float explosionRadius = 7f;
     public float explosionForce = 1000f;
     public float maxDamage = 50f;
+    public GameObject SawBlade;
 
+    [Header("Audio")]
+    [SerializeField] private EventReference SawSound;
+
+    private void Start()
+    {
+        RuntimeManager.PlayOneShotAttached(SawSound, SawBlade);
+    }
     private void OnCollisionEnter(Collision collision)
     {
         Explode();
@@ -14,6 +23,7 @@ public class Saw : MonoBehaviour
 
     void Explode()
     {
+        
         Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius);
 
         foreach (Collider nearbyObject in colliders)
