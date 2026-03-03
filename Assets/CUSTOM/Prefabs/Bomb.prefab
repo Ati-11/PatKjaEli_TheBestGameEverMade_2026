@@ -262,6 +262,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8fa0c15e69d29c43bf833f42eadc63e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bomb
+  Multiplayer: {fileID: 0}
+  _uidString: f50508cd-df70-43f5-aad5-414a4a79ca96
+  Reliability: 1
+  LocalMethodBehavior: 1
   explosionRadius: 7
   explosionForce: 1000
   maxDamage: 50

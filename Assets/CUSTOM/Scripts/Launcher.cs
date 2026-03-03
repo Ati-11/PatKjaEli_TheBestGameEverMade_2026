@@ -20,7 +20,7 @@ public class Launcher : AttributesSync
         {
             GameObject bomb = Instantiate(BombPrefab, this.transform.position, Quaternion.identity);
 
-            bomb.GetComponent<Rigidbody>().AddForce(transform.forward * 20, ForceMode.Impulse);
+            bomb.GetComponent<RigidbodySynchronizable>().AddForce(transform.forward * 20, ForceMode.Impulse);
         }
     }
 }
