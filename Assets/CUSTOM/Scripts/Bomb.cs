@@ -10,7 +10,7 @@ public class Bomb : MonoBehaviour
     [Header("Explosion Settings")]
     public float explosionRadius = 7f;
     public float explosionForce = 1000f;
-    public float maxDamage = 50f;
+    public float maxDamage = 20f;
     public GameObject particlePrefab;
 
     [Header("Audio")]
