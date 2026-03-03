@@ -1832,7 +1832,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b0c0299ec9eceb45841f4e6f79740e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Launcher
+  Multiplayer: {fileID: 0}
+  _uidString: 40ebdbd9-dc19-4a54-8cac-0649faabf617
+  Reliability: 1
+  LocalMethodBehavior: 1
   BombPrefab: {fileID: 2570416231270930436, guid: 63b7da02d830ac14e881196bbda592e1, type: 3}
+  avatar: {fileID: 2681049262892271656}
 --- !u!1 &5467267397079906354
 GameObject:
   m_ObjectHideFlags: 0

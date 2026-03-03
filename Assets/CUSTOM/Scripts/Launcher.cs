@@ -17,7 +17,7 @@ public class Launcher : AttributesSync
     // Update is called once per frame
     void Update()
     {
-        if (!avatar.IsMe)
+        if (avatar.IsMe)
         {
             if (Input.GetKeyDown(KeyCode.Q))
             {
