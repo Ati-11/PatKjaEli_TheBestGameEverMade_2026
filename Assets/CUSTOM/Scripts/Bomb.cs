@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using FMODUnity;
 
-public class Bomb : MonoBehaviour
+public class Bomb : AttributesSync
 {
     private RigidbodySynchronizable _rigid;
 
