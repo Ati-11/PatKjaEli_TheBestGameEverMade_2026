@@ -17,7 +17,8 @@ public class Launcher : AttributesSync
     // Update is called once per frame
     void Update()
     {
-        if (avatar.IsMe)
+        if (!avatar.IsMe)
+        return;
         {
             if (Input.GetKeyDown(KeyCode.Q))
             {
@@ -25,7 +26,6 @@ public class Launcher : AttributesSync
 
                 bomb.GetComponent<RigidbodySynchronizable>().AddForce(transform.forward * 20, ForceMode.Impulse);
             }
-        return;
         }
     }
 }
