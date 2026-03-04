@@ -301,8 +301,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Saw
   explosionRadius: 7
-  explosionForce: 1000
-  maxDamage: 50
+  explosionForce: 0
+  maxDamage: 100
   SawBlade: {fileID: 3502085912598913101}
   SawSound:
     Guid:
