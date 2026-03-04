@@ -36,7 +36,7 @@ public class Saw : MonoBehaviour
             }
 
             // Apply damage if object has EnemyHealth script
-            PlayerHealth enemy = nearbyObject.GetComponentInParent<PlayerHealth>();
+            PlayerHealthh enemy = nearbyObject.GetComponentInParent<PlayerHealthh>();
             if (enemy != null)
             {
                 float distance = Vector3.Distance(transform.position, nearbyObject.transform.position);
