@@ -199,7 +199,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 1
+  m_Time: 0.1
   m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3
@@ -301,8 +301,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Saw
   explosionRadius: 7
-  explosionForce: 1000
-  maxDamage: 50
+  explosionForce: 0
+  maxDamage: 100
   SawBlade: {fileID: 3502085912598913101}
   SawSound:
     Guid:

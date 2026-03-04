@@ -2704,6 +2704,7 @@ GameObject:
   - component: {fileID: 3515264988299721637}
   - component: {fileID: 6340705438784392574}
   - component: {fileID: 6037088833569899165}
+  - component: {fileID: -1531112328301308715}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2950,6 +2951,23 @@ MonoBehaviour:
   LocalMethodBehavior: 1
   Animator: {fileID: 0}
   OnlyCommitNewStates: 1
+--- !u!114 &-1531112328301308715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8740848824771899312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaeebfcdec7766141bd2fb6da9b23e20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealthh
+  Multiplayer: {fileID: 0}
+  _uidString: e4940a80-b285-46a7-88e0-c5541ed5f8d5
+  Reliability: 1
+  LocalMethodBehavior: 1
+  maxHealth: 100
 --- !u!1 &8775089158394199934
 GameObject:
   m_ObjectHideFlags: 0
