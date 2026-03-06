@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{c7b20d09-a830-447c-9a91-92ed7e41c17e}">
+		<property name="assetPath">
+			<value>nils_vega-river-forest-sounds-381060.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>35.304000000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{53ed3254-579e-4d31-8c76-00d323cb38d3}</destination>
+		</relationship>
+	</object>
+</objects>

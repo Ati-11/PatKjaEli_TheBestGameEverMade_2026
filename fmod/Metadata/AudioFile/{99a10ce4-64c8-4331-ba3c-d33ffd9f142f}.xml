@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{99a10ce4-64c8-4331-ba3c-d33ffd9f142f}">
+		<property name="assetPath">
+			<value>schorsch1964-birds-and-frogs-382495.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>51.330612244897956</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{53ed3254-579e-4d31-8c76-00d323cb38d3}</destination>
+		</relationship>
+	</object>
+</objects>

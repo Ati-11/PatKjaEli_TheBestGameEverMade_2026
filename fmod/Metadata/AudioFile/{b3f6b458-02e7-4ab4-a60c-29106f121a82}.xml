@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{b3f6b458-02e7-4ab4-a60c-29106f121a82}">
+		<property name="assetPath">
+			<value>u_bfauf4lvsw-birds-in-the-woods-373080.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>68.808000000000007</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{53ed3254-579e-4d31-8c76-00d323cb38d3}</destination>
+		</relationship>
+	</object>
+</objects>
