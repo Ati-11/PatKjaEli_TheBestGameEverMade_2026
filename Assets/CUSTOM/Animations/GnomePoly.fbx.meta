@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: 7fbc91046db8cce42976d5460401db49
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308624
+  packageName: Gnome - Low Poly
+  packageVersion: 1.0.1
+  assetPath: Assets/SnoozyRat/Gnome - Poly/Mesh/GnomePoly.fbx
+  uploadId: 782209
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects: {}
   materials:
@@ -17,51 +24,7 @@ ModelImporter:
     removeConstantScaleCurves: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Gnome_Rig|Idle' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'LegUpper.L' has translation animation that
-      will be discarded.\n\t'LegUpper.R' has translation animation that will be discarded.\n\nClip
-      'Gnome_Rig|Idle.001' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'LegUpper.L'
-      has translation animation that will be discarded.\n\t'LegUpper.R' has translation
-      animation that will be discarded.\n\nClip 'Gnome_Rig|IdleBreak' has import
-      animation warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'LegUpper.L' has translation
-      animation that will be discarded.\n\t'LegUpper.R' has translation animation
-      that will be discarded.\n\nClip 'Gnome_Rig|Impact' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'LegUpper.L' has translation animation that
-      will be discarded.\n\t'LegUpper.R' has translation animation that will be discarded.\n\nClip
-      'Gnome_Rig|ImpactDeath' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'LegUpper.L'
-      has translation animation that will be discarded.\n\t'LegUpper.R' has translation
-      animation that will be discarded.\n\nClip 'Gnome_Rig|JumpLand' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'LegUpper.L' has translation
-      animation that will be discarded.\n\t'LegUpper.R' has translation animation
-      that will be discarded.\n\nClip 'Gnome_Rig|Skip' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'LegUpper.L' has translation animation that
-      will be discarded.\n\t'LegUpper.R' has translation animation that will be discarded.\n\nClip
-      'Gnome_Rig|SlapL' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'LegUpper.L'
-      has translation animation that will be discarded.\n\t'LegUpper.R' has translation
-      animation that will be discarded.\n\nClip 'Gnome_Rig|SlapR' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'LegUpper.L' has translation
-      animation that will be discarded.\n\t'LegUpper.R' has translation animation
-      that will be discarded.\n\nClip 'Gnome_Rig|Walk' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'LegUpper.L' has translation animation that
-      will be discarded.\n\t'LegUpper.R' has translation animation that will be discarded.\n\nClip
-      'Gnome_Rig|WalkSlow' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'LegUpper.L'
-      has translation animation that will be discarded.\n\t'LegUpper.R' has translation
-      animation that will be discarded.\n\nClip 'Gnome_Rig|Wave' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'LegUpper.L' has translation
-      animation that will be discarded.\n\t'LegUpper.R' has translation animation
-      that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -75,11 +38,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Gnome_Rig|Idle
-      takeName: Gnome_Rig|Idle
+      name: Gnome_Rig|Walk (1)
+      takeName: Gnome_Rig|Walk
       internalID: 8608311937192916599
       firstFrame: 0
-      lastFrame: 60
+      lastFrame: 20
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -535,6 +498,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -959,10 +925,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 308624
-  packageName: Gnome - Low Poly
-  packageVersion: 1.0.1
-  assetPath: Assets/SnoozyRat/Gnome - Poly/Mesh/GnomePoly.fbx
-  uploadId: 782209

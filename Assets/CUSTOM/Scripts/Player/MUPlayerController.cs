@@ -37,6 +37,7 @@ public class MUPlayerController : AttributesSync
 
     public EventReference jumpSFX;
     public GameObject jumpVFX;
+    public EventReference footstepSFX;
 
     private void Awake()
     {
@@ -88,15 +89,15 @@ public class MUPlayerController : AttributesSync
     {
 
         if (!avatar.IsMe)
-        {           
+        {
             return;
         }
 
-        if(isInDoorVolume)
+        if (isInDoorVolume)
         {
             Debug.Log("IS IN DOOR VOLUME");
-            
-            if(Input.GetKey(KeyCode.E))
+
+            if (Input.GetKey(KeyCode.E))
             {
                 Debug.Log("pRESSED E");
                 whichDoor.SetBool("Open Right", true);
@@ -138,8 +139,13 @@ public class MUPlayerController : AttributesSync
         }
 
     }
-
-
+    /*
+    public void Step()
+    {
+        if (!avatar.IsMe) return;
+        RuntimeManager.PlayOneShotAttached(footstepSFX, gameObject);
+    }
+    */
 
     private void OnCollisionStay(Collision collision)
     {
