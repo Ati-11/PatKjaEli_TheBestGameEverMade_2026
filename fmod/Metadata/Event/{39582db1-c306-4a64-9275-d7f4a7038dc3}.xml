@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{39582db1-c306-4a64-9275-d7f4a7038dc3}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>GnomeFallingInWater</value>
 		</property>
