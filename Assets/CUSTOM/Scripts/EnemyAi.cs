@@ -113,8 +113,8 @@ public class EnemyAi : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        health -= damage;
         RuntimeManager.PlayOneShot(EnemyKilled, transform.position);
+        health -= damage;
 
         if (health <= 0) Invoke(nameof(DestoryEnemy), .5f);
         

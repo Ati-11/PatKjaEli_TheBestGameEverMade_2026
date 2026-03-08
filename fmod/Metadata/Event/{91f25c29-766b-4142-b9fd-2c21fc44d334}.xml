@@ -113,8 +113,14 @@
 			<destination>{265eef2a-9f18-4fe0-b364-a8487e28aafd}</destination>
 			<destination>{e76fa70b-9c03-4195-9639-6f7efcedae68}</destination>
 		</relationship>
+		<relationship name="markers">
+			<destination>{3a2a907f-fda4-44d7-9b13-5f55f3e2f7aa}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3b29ba55-4251-4ed4-a20c-9d1d8d7cced2}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{6f3ec8b0-929b-4f54-98dd-aa365a1ee9ea}</destination>
 		</relationship>
@@ -187,9 +193,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4549f38b-c6c4-4d78-aa5a-0a7681a89152}">
-		<property name="volume">
-			<value>10</value>
-		</property>
 		<property name="name">
 			<value>Audio 3</value>
 		</property>
@@ -213,7 +216,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{842641cb-0404-47cb-8bef-cf787e3e7a90}">
 		<property name="volume">
-			<value>-2</value>
+			<value>-44</value>
 		</property>
 		<property name="name">
 			<value>Audio 4</value>
@@ -241,7 +244,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{b369bc07-4380-42f1-b1a8-4071def700bb}">
 		<property name="volume">
-			<value>-22.5</value>
+			<value>-20.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 5</value>
@@ -254,6 +257,20 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{3b29ba55-4251-4ed4-a20c-9d1d8d7cced2}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{3a2a907f-fda4-44d7-9b13-5f55f3e2f7aa}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>51.330612244897956</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{e1c31aab-ca45-417a-b7ba-8d6b2a1253b1}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{6dd68d12-6b87-4da5-b4a4-45ae8c71a815}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{6f3ec8b0-929b-4f54-98dd-aa365a1ee9ea}">

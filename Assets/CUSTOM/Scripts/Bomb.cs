@@ -8,7 +8,7 @@ public class Bomb : AttributesSync
     private RigidbodySynchronizable _rigid;
 
     [Header("Explosion Settings")]
-    public float explosionRadius = 7f;
+    public float explosionRadius = 9f;
     public float explosionForce = 1000f;
     public float maxDamage = 20f;
     public GameObject particlePrefab;

@@ -38,11 +38,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Gnome_Rig|Walk (1)
-      takeName: Gnome_Rig|Walk
+      name: Gnome_Rig|Idle
+      takeName: Gnome_Rig|Idle
       internalID: 8608311937192916599
       firstFrame: 0
-      lastFrame: 20
+      lastFrame: 60
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
