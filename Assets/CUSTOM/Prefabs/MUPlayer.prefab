@@ -556,10 +556,10 @@ MonoBehaviour:
   jumpVFX: {fileID: 2370778919708059267, guid: 7a4152c6fddb9684e9a80e5218a0891a, type: 3}
   footstepSFX:
     Guid:
-      Data1: 1609522713
-      Data2: 1257326377
-      Data3: -1286003049
-      Data4: 303153125
+      Data1: 1879465719
+      Data2: 1211607715
+      Data3: 1950652823
+      Data4: -100004996
     Path: event:/GnomeFootsteps
 --- !u!1 &1486506136075038334
 GameObject:

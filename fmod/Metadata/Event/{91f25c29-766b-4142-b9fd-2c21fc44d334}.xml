@@ -8,7 +8,7 @@
 			<value>Eli Forest</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{96be1bcb-4a21-4151-a656-73786f2b5e33}</destination>
@@ -37,6 +37,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{e1c31aab-ca45-417a-b7ba-8d6b2a1253b1}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{b9f7f86d-7207-4635-8260-93b7ac50c009}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{40720a30-2c91-4269-ba96-a7abc8228cbf}">
@@ -256,6 +259,7 @@
 	<object class="MixerBusEffectChain" id="{6f3ec8b0-929b-4f54-98dd-aa365a1ee9ea}">
 		<relationship name="effects">
 			<destination>{45f192e8-ad5a-467c-88fe-14cbfc04d094}</destination>
+			<destination>{5829b00d-86a9-4096-a4b4-223f3be207fe}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{09019fed-5269-4f74-8b86-ce8a98c043d2}" />
@@ -291,6 +295,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{31b7aba2-9a07-43f2-ba50-edc966bb8d80}" />
 	<object class="MixerBusFader" id="{45f192e8-ad5a-467c-88fe-14cbfc04d094}" />
+	<object class="SpatialiserEffect" id="{5829b00d-86a9-4096-a4b4-223f3be207fe}" />
 	<object class="MixerBusFader" id="{92e63e5d-a9c5-4640-adfd-bc01fb7e642b}" />
 	<object class="MixerBusFader" id="{7d2fab5d-ad3b-40c1-8287-f78b71a61847}" />
 	<object class="MixerBusFader" id="{f507ff03-bd80-4517-b924-036d41b91690}" />

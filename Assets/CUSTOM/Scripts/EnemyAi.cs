@@ -1,3 +1,4 @@
+using FMODUnity;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.AI;
@@ -11,6 +12,9 @@ public class EnemyAi : MonoBehaviour
     public LayerMask whatIsGround, whatIsPlayer;
 
     public float health;
+
+    [Header("Audio")]
+    [SerializeField] private EventReference EnemyKilled;
 
     //Patroling 
     public Vector3 walkPoint;
@@ -110,8 +114,10 @@ public class EnemyAi : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
+        RuntimeManager.PlayOneShot(EnemyKilled, transform.position);
 
         if (health <= 0) Invoke(nameof(DestoryEnemy), .5f);
+        
     }
 
     private void DestoryEnemy()

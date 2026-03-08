@@ -14475,6 +14475,69 @@ Transform:
   m_Children: []
   m_Father: {fileID: 67391527}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &101320841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 101320843}
+  - component: {fileID: 101320842}
+  m_Layer: 0
+  m_Name: GameObject (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &101320842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101320841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1359964261
+      Data2: 1290870668
+      Data3: 1127321217
+      Data4: -7841836
+    Path: event:/Big river
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 30
+--- !u!4 &101320843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101320841}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -52.08, y: 1.91, z: 164.1}
+  m_LocalScale: {x: 4.6341047, y: 4.6341047, z: 10.868326}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &101623167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38387,6 +38450,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5447955883513308198, guid: fd316c74c5e14da46a1273bb5e72535a, type: 3}
   m_PrefabInstance: {fileID: 287278282}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &289379417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 289379419}
+  - component: {fileID: 289379418}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &289379418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289379417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1359964261
+      Data2: 1290870668
+      Data3: 1127321217
+      Data4: -7841836
+    Path: event:/Big river
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 30
+--- !u!4 &289379419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289379417}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -52.08, y: 1.91, z: 79.9}
+  m_LocalScale: {x: 4.6341047, y: 4.6341047, z: 10.868326}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &289472498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39163,6 +39289,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 860895226358405941, guid: bc5b42b028de0d147b9ff044c717abab, type: 3}
   m_PrefabInstance: {fileID: 297175233}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &297597049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 297597051}
+  - component: {fileID: 297597050}
+  m_Layer: 0
+  m_Name: GameObject (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &297597050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297597049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1359964261
+      Data2: 1290870668
+      Data3: 1127321217
+      Data4: -7841836
+    Path: event:/Big river
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 30
+--- !u!4 &297597051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297597049}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -52.08, y: 1.91, z: 201.9}
+  m_LocalScale: {x: 4.6341047, y: 4.6341047, z: 10.868326}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &298138390
 GameObject:
   m_ObjectHideFlags: 0
@@ -65540,6 +65729,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -79251,6 +79447,117 @@ Transform:
   - {fileID: 35909003}
   m_Father: {fileID: 1317695954}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &608950435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 608950439}
+  - component: {fileID: 608950438}
+  - component: {fileID: 608950437}
+  - component: {fileID: 608950436}
+  m_Layer: 0
+  m_Name: rrr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &608950436
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608950435}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &608950437
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608950435}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &608950438
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608950435}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &608950439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608950435}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 67.14372, y: 26.9, z: 518.6}
+  m_LocalScale: {x: 146.96365, y: 1, z: 198.565}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &609141253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -88419,6 +88726,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -91041,6 +91355,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -103596,6 +103917,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -115588,6 +115916,69 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &877666954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 877666956}
+  - component: {fileID: 877666955}
+  m_Layer: 0
+  m_Name: GameObject (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &877666955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877666954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1846387671
+      Data2: 1094874731
+      Data3: 556596665
+      Data4: 886260988
+    Path: event:/Eli Forest
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 150
+--- !u!4 &877666956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877666954}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8, y: 4.99, z: 91.2}
+  m_LocalScale: {x: 4.6341047, y: 4.6341047, z: 10.868326}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &877858589
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -131141,6 +131532,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -151871,6 +152269,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -154570,6 +154975,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6634668326284583237, guid: 7bfc69592d8bf2a4e9e5fa6842e93043, type: 3}
   m_PrefabInstance: {fileID: 1179934853}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1181081042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1181081044}
+  - component: {fileID: 1181081043}
+  m_Layer: 0
+  m_Name: GameObject (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1181081043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181081042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1359964261
+      Data2: 1290870668
+      Data3: 1127321217
+      Data4: -7841836
+    Path: event:/Big river
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 30
+--- !u!4 &1181081044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181081042}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -52.08, y: 1.91, z: 126.1}
+  m_LocalScale: {x: 4.6341047, y: 4.6341047, z: 10.868326}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1181368223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -159543,6 +160011,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7579378418538005683, guid: 333084716474bad4d84a3c92d7b3fca7, type: 3}
   m_PrefabInstance: {fileID: 1214560503}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1215309990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1215309991}
+  - component: {fileID: 1215309992}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1215309991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215309990}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -52.08, y: 1.91, z: 32.8}
+  m_LocalScale: {x: 4.6341047, y: 4.6341047, z: 10.868326}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1215309992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215309990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1359964261
+      Data2: 1290870668
+      Data3: 1127321217
+      Data4: -7841836
+    Path: event:/Big river
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 30
 --- !u!1 &1215969819
 GameObject:
   m_ObjectHideFlags: 0
@@ -178506,6 +179037,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -180805,6 +181343,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -190327,6 +190872,117 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6299899493706942008, guid: 7f673df2de98f354ca69d8d4571871d3, type: 3}
   m_PrefabInstance: {fileID: 1472913421}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1473138387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1473138391}
+  - component: {fileID: 1473138390}
+  - component: {fileID: 1473138389}
+  - component: {fileID: 1473138388}
+  m_Layer: 0
+  m_Name: rrr (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1473138388
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473138387}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1473138389
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473138387}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1473138390
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473138387}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1473138391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473138387}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 67.14372, y: 26.9, z: 640.6}
+  m_LocalScale: {x: 344.57098, y: 1, z: 198.565}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1474715326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -204749,6 +205405,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -226502,6 +227165,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -227512,6 +228182,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -228682,6 +229359,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -230498,6 +231182,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -238814,6 +239505,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -240079,6 +240777,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -242144,6 +242849,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -271972,15 +272684,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8890425503812617080, guid: 467c8724b8a848943abf2dd737933358, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.0536437
+      value: 2.0279858
       objectReference: {fileID: 0}
     - target: {fileID: 8890425503812617080, guid: 467c8724b8a848943abf2dd737933358, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.0536437
+      value: 2.0279858
       objectReference: {fileID: 0}
     - target: {fileID: 8890425503812617080, guid: 467c8724b8a848943abf2dd737933358, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.0536437
+      value: 2.0279858
       objectReference: {fileID: 0}
     - target: {fileID: 8890425503812617080, guid: 467c8724b8a848943abf2dd737933358, type: 3}
       propertyPath: m_LocalPosition.x
@@ -272211,6 +272923,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   health: 120
+  EnemyKilled:
+    Guid:
+      Data1: -175291108
+      Data2: 1190599999
+      Data3: 1543706259
+      Data4: 1100940795
+    Path: event:/EnemyDeath
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 20
   timeBetweenAttacks: 0.5
@@ -284395,6 +285114,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2245466476051838526, guid: 6c6f4383a3d809c41958d33da1cdc966, type: 3}
   m_PrefabInstance: {fileID: 2144557656}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2146017459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2146017461}
+  - component: {fileID: 2146017460}
+  m_Layer: 0
+  m_Name: GameObject (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2146017460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146017459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1846387671
+      Data2: 1094874731
+      Data3: 556596665
+      Data4: 886260988
+    Path: event:/Eli Forest
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 150
+--- !u!4 &2146017461
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146017459}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 95.5, y: 4.99, z: 267.3}
+  m_LocalScale: {x: 4.6341047, y: 4.6341047, z: 10.868326}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2146064776
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -284807,3 +285589,12 @@ SceneRoots:
   - {fileID: 1043485042}
   - {fileID: 1093802818}
   - {fileID: 447098944}
+  - {fileID: 608950439}
+  - {fileID: 1473138391}
+  - {fileID: 1215309991}
+  - {fileID: 289379419}
+  - {fileID: 877666956}
+  - {fileID: 2146017461}
+  - {fileID: 1181081044}
+  - {fileID: 101320843}
+  - {fileID: 297597051}
